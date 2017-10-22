@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="post">
+<h1> Welcome to the home page of car rental app </h1>
+{% csrf_token %}
+    {{ form }}
+
+<input type="submit" value="SUBMIT">
+</form>
+<h2>{{ from }}</h2>
+</body>
+</html>
